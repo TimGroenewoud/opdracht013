@@ -1,0 +1,62 @@
+.first-link{
+    text-decoration: none;
+    color: seagreen;
+    font-size: 30px;
+}
+
+.first-link:hover{
+    color: lightskyblue;
+    font-weight: bolder;
+}
+
+.second-link{
+    color: magenta;
+    font-size: 30px;
+}
+
+.second-link:active{
+    color: red;
+    font-style: italic;
+}
+
+.third-link{
+    color: seagreen;
+    font-size: 30px;
+}
+
+.third-link:visited{
+    color: gold ;
+
+}
+
+.active:focus{
+    color: green;
+    font-size: 20px;
+}
+
+nav{
+    background-color: darkslateblue;
+}
+
+nav li{
+    display: inline-block;
+    color: floralwhite;
+    padding: 20px;
+    list-style-type: none;
+
+}
+
+nav li:hover{
+    background-color: lightskyblue;
+}
+
+.currentPage{
+    background-color: midnightblue;
+    padding: 10px;
+}
+
+nav input:focus{
+    background-color: aqua;
+}
+
+
